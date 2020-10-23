@@ -5,3 +5,4 @@ terraform.tfstate.backup
 .terraform/plugins/selections.json
 .terraform/modules/modules.json
 config.tf
+config.tf
