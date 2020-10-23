@@ -1,0 +1,18 @@
+ec2_aws_ami = "ami-0010d386b82bc06f0"
+ec2_instance_type = "t2.micro"
+
+rds_name = "mydb"
+rds_db_subnet_group_name = "db-subnet-group"
+rds_allocated_storage = "20"
+rds_storage_type = "gp2"
+rds_engine = "mysql"
+rds_engine_version = "5.7.22"
+rds_instance_class = "db.t2.micro"
+rds_username = "admin"
+rds_password = "Redhat12#"
+rds_parameter_group_name = "default.mysql5.7"
+rds_final_snapshot_identifier = "rds-bkp"
+rds_skip_final_snapshot = "true"
+
+vpc_cidr_block = "10.0.0.0/16"
+rt_cidr_block = "0.0.0.0/0"
