@@ -37,5 +37,9 @@ module "subnet" {
   sn_cidr   = var.sn_cidr_block
   az        = var.sn_az
   vpc_id_sn = module.vpc.vpc_id
-
+}
+module "rt_sn" {
+  source = "./module_rtsn"
+  sn_id  = module.subnet.sn_id
+  rt_id  = module.route_table.rt_id
 }
