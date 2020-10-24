@@ -16,3 +16,5 @@ rds_skip_final_snapshot = "true"
 
 vpc_cidr_block = "10.0.0.0/16"
 rt_cidr_block = "0.0.0.0/0"
+sn_az = "us-east-2a"
+sn_cidr_block = "10.0.1.0/24"

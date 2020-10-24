@@ -1,36 +1,36 @@
 variable "name" {
-	description = "Tag - RDS Name for identification"
+  description = "Tag - RDS Name for identification"
 }
-variable "db_subnet_group_name"{
+variable "db_subnet_group_name" {
   description = "Name of the subnet group"
 }
-variable "allocated_storage"{
+variable "allocated_storage" {
   description = "Storage allocated to RDS instance"
 }
-variable "storage_type"{
+variable "storage_type" {
   description = "Storage type allocated to RDS instance"
 }
-variable "engine"{
+variable "engine" {
   description = "Db Enginer for the instance"
 }
-variable "engine_version"{
+variable "engine_version" {
   description = "DB Enginer Version"
 }
-variable "instance_class"{
+variable "instance_class" {
   description = "Class of the RDS DB instance"
 }
-variable "username"{
- description = "Username for the RDS DB"
+variable "username" {
+  description = "Username for the RDS DB"
 }
-variable "password"{
+variable "password" {
   description = "Password of the RDS admin user"
 }
-variable "parameter_group_name"{
+variable "parameter_group_name" {
   description = "name of the parameter group used by the DB instance"
 }
-variable "final_snapshot_identifier"{
+variable "final_snapshot_identifier" {
   description = "Name of the final snapshot taken while terminating DB instance"
 }
-variable "skip_final_snapshot"{
+variable "skip_final_snapshot" {
   description = "To save a final snapshot while termintation or not"
 }
