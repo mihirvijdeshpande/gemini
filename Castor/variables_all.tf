@@ -52,3 +52,27 @@ variable "sn_cidr_block" {
 variable "sn_az" {
   description = "Subnet Availability Zone"
 }
+variable "sg_name" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_https_port" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_http_port" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_ssh_port" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_in_protocol" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_out_protocol" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_in_cidr_block" {
+  description = "Tag - RDS Name for identification"
+}
+variable "sg_out_cidr_block" {
+  description = "Tag - RDS Name for identification"
+}

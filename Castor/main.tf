@@ -43,3 +43,15 @@ module "rt_sn" {
   sn_id  = module.subnet.sn_id
   rt_id  = module.route_table.rt_id
 }
+module "sg" {
+  source         = "./module_sg"
+  name           = var.sg_name
+  vpc_id         = module.vpc.vpc_id
+  https_port     = var.sg_https_port
+  http_port      = var.sg_http_port
+  ssh_port       = var.sg_ssh_port
+  in_protocol    = var.sg_in_protocol
+  out_protocol   = var.sg_out_protocol
+  in_cidr_block  = var.sg_in_cidr_block
+  out_cidr_block = var.sg_out_cidr_block
+}
