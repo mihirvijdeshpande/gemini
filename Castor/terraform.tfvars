@@ -18,3 +18,12 @@ vpc_cidr_block = "10.0.0.0/16"
 rt_cidr_block = "0.0.0.0/0"
 sn_az = "us-east-2a"
 sn_cidr_block = "10.0.1.0/24"
+
+sg_name = "allow_web_traffic"
+sg_https_port = 443
+sg_http_port = 80
+sg_ssh_port = 22
+sg_in_protocol = "tcp"
+sg_out_protocol = "-1"
+sg_in_cidr_block = "0.0.0.0/0"
+sg_out_cidr_block = "0.0.0.0/0"
