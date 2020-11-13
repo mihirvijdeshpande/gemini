@@ -6,3 +6,4 @@ Castor/.terraform/plugins/selections.json
 Castor/.terraform/modules/modules.json
 Castor/config.tf
 Castor/config.tf
+mykey.key
